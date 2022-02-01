@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Playfair+Display&display=swap");
+
+html[data-theme="light"] {
+  --ls-font-family: "Playfair Display";
+  --ls-secondary-font-family: "Lato";
+  --ls-link-text-color: rgb(45, 40, 40);
+  --ls-primary-text-color: rgb(45, 40, 40);
+  --ls-link-ref-text-color: rgb(45, 40, 40);
+}
+
+.keyboard-shortcut > code,
+.text-sm {
+  font-family: var(--ls-secondary-font-family);
+}
+
+.page-ref {
+  text-decoration: underline;
+}

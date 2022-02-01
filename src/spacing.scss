@@ -1,0 +1,35 @@
+.block-children-left-border,
+.block-children.w-full {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.block-children-left-border:hover {
+  background-color: var(--cl-silver);
+  width: 3px;
+  padding-right: 2px;
+}
+
+/* Adjust content to left, so text is inline with the title */
+.page-blocks-inner .content {
+  margin-left: -14px;
+}
+.ls-block {
+  margin-left: -13px;
+}
+
+*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card)
+  .bullet-container
+  .bullet {
+  background-color: transparent;
+}
+
+*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card)
+  .ls-block:hover
+  > div
+  > div
+  > a
+  .bullet-container
+  .bullet {
+  background-color: var(--cl-silver);
+}

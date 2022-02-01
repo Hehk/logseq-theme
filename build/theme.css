@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Playfair+Display&display=swap");
+html[data-theme=light] {
+  --ls-font-family: "Playfair Display";
+  --ls-secondary-font-family: "Lato";
+  --ls-link-text-color: rgb(45, 40, 40);
+  --ls-primary-text-color: rgb(45, 40, 40);
+  --ls-link-ref-text-color: rgb(45, 40, 40);
+}
+
+.keyboard-shortcut > code,
+.text-sm {
+  font-family: var(--ls-secondary-font-family);
+}
+
+.page-ref {
+  text-decoration: underline;
+}
+
+.block-children-left-border,
+.block-children.w-full {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.block-children-left-border:hover {
+  background-color: var(--cl-silver);
+  width: 3px;
+  padding-right: 2px;
+}
+
+/* Adjust content to left, so text is inline with the title */
+.page-blocks-inner .content {
+  margin-left: -14px;
+}
+
+.ls-block {
+  margin-left: -13px;
+}
+
+*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) .bullet-container .bullet {
+  background-color: transparent;
+}
+
+*:is(#main-content-container, #right-sidebar, .tippy-tooltip, .ls-card) .ls-block:hover > div > div > a .bullet-container .bullet {
+  background-color: var(--cl-silver);
+}
+
+html[data-theme=light] {
+  --ls-page-properties-background-color: transparent;
+}
+
+.page-properties,
+blockquote {
+  font-family: var(--ls-secondary-font-family);
+  padding: 0 16px;
+  border-left: 4px solid;
+  border-left-color: var(--ls-primary-text-color);
+  background-color: transparent;
+  margin: 0 !important;
+}
+.page-properties .page-property-key,
+blockquote .page-property-key {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+/*# sourceMappingURL=theme.css.map */

@@ -1,0 +1,22 @@
+{
+  "name": "logseq-crisp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "sass --watch src/index.scss build/theme.css"
+  },
+  "logseq": {
+    "themes": [
+      {
+        "name": "Crisp Logseq",
+        "url": "./build/theme.css",
+        "description": "I nice serif logseq"
+      }
+    ],
+    "id": "hehk_logseq_crisp"
+  },
+  "dependencies": {
+    "sass": "^1.49.0"
+  }
+}

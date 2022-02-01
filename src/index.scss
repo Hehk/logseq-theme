@@ -1,0 +1,29 @@
+@import "./variables.scss";
+@import "./text.scss";
+@import "./spacing.scss";
+
+// https://github.com/logseq/logseq/blob/2e8f799a1ca1cec7450f3dc84b011a0dd1bfa284/resources/css/common.css
+
+html[data-theme="light"] {
+  --ls-page-properties-background-color: transparent;
+}
+
+// Make page properties follow the same theme as block quotes
+.page-properties,
+blockquote {
+  font-family: var(--ls-secondary-font-family);
+  padding: 0 16px;
+  border-left: 4px solid;
+  border-left-color: var(--ls-primary-text-color);
+  background-color: transparent;
+  // Prevents the text from moving around when editing
+  margin: 0 !important;
+
+  .page-property-key {
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+}
+blockquote {
+  font-style: italic;
+}

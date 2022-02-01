@@ -1,0 +1,31 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/16.8.0/bin/node /opt/homebrew/bin/yarn init
+
+PATH: 
+  /Users/kyle/google-cloud-sdk/bin:/Users/kyle/.opam/default/bin:/opt/homebrew/opt/openjdk/bin:/Users/kyle/.local/bin:/Users/kyle/.cabal/bin:/Users/kyle/.ghcup/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kyle/.cargo/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.8.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/kyle/Work/projects/logseq-crisp/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /opt/homebrew/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
