@@ -33,3 +33,15 @@
   .bullet {
   background-color: var(--cl-silver);
 }
+
+#head {
+  opacity: 0;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  &:hover {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
