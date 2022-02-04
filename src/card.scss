@@ -1,0 +1,14 @@
+div[data-refs-self*='"card"'] {
+  $left-adjust: 34px;
+  margin-left: $left-adjust;
+  > div {
+    margin-left: -1 * $left-adjust;
+  }
+  > .block-children-container {
+    margin-left: -1 * $left-adjust + 14 * 2 !important;
+  }
+
+  margin-right: 10px;
+  background-color: var(--ls-secondary-background-color);
+  box-shadow: none;
+}

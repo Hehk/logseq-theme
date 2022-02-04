@@ -77,6 +77,19 @@ h6 {
   transform: translateY(0px);
 }
 
+div[data-refs-self*='"card"'] {
+  margin-left: 34px;
+  margin-right: 10px;
+  background-color: var(--ls-secondary-background-color);
+  box-shadow: none;
+}
+div[data-refs-self*='"card"'] > div {
+  margin-left: -34px;
+}
+div[data-refs-self*='"card"'] > .block-children-container {
+  margin-left: -6px !important;
+}
+
 html[data-theme=light] {
   --ls-page-properties-background-color: transparent;
 }
