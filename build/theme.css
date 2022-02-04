@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Playfair+Display&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 html[data-theme=light] {
-  --ls-font-family: "Playfair Display";
-  --ls-secondary-font-family: "Lato";
+  --ls-font-family: "Playfair Display", serif;
+  --ls-title-font-family: "Playfair Display SC", serif;
+  --ls-secondary-font-family: "Lato", sans-serif;
   --ls-link-text-color: rgb(45, 40, 40);
   --ls-primary-text-color: rgb(45, 40, 40);
   --ls-link-ref-text-color: rgb(45, 40, 40);
@@ -17,22 +18,22 @@ html[data-theme=light] {
   color: var(--ls-primary-text-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ls-title-font-family);
+}
+
 .ls-block h2 {
-  font-size: 1rem !important;
-  min-height: 1rem !important;
   border-bottom: 1px solid var(--ls-primary-text-color) !important;
+  font-family: var(--ls-title-font-family);
+  text-align: right;
 }
-.ls-block h2 > span {
-  background-color: var(--ls-primary-text-color);
-  border-radius: 0;
-  padding: 2px 8px;
-  color: white;
-}
-.ls-block h2 > span .page-ref {
-  color: white;
-}
-.ls-block h2 > span .bracket {
-  opacity: 1;
+.ls-block h2 .page-ref {
+  text-decoration: none;
 }
 
 .block-children-left-border,
