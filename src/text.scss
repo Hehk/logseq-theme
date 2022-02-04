@@ -17,3 +17,22 @@ html[data-theme="light"] {
   text-decoration: underline;
   color: var(--ls-primary-text-color);
 }
+
+.ls-block h2 {
+  font-size: 1rem !important;
+  min-height: 1rem !important;
+  border-bottom: 1px solid var(--ls-primary-text-color) !important;
+
+  > span {
+    background-color: var(--ls-primary-text-color);
+    border-radius: 0;
+    padding: 2px 8px;
+    color: white;
+    .page-ref {
+      color: white;
+    }
+    .bracket {
+      opacity: 1;
+    }
+  }
+}
