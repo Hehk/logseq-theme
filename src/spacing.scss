@@ -5,7 +5,7 @@
 }
 
 .block-children-left-border:hover {
-  background-color: var(--cl-silver);
+  background-color: var(--ls-block-bullet-color,#394b59);
   width: 3px;
   padding-right: 2px;
 }
@@ -31,7 +31,7 @@
   > a
   .bullet-container
   .bullet {
-  background-color: var(--cl-silver);
+  background-color: var(--ls-block-bullet-color,#394b59);
 }
 
 #head {
