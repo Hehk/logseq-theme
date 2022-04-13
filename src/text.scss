@@ -36,3 +36,10 @@ h6 {
     text-decoration: none;
   }
 }
+
+// Hide extra reccurence text on Scheduled And Deadline stuff
+.references-blocks {
+  .drawer[data-drawer-name="logbook"] {
+    display: none;
+  }
+}

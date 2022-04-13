@@ -36,6 +36,10 @@ h6 {
   text-decoration: none;
 }
 
+.references-blocks .drawer[data-drawer-name=logbook] {
+  display: none;
+}
+
 .block-children-left-border,
 .block-children.w-full {
   background-color: transparent;
