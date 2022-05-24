@@ -7,6 +7,7 @@
 
 html[data-theme="light"] {
   --ls-page-properties-background-color: transparent;
+  --ls-primary-background-color: #f3f3f3;
 }
 
 // Make page properties follow the same theme as block quotes
@@ -27,4 +28,8 @@ blockquote {
 }
 blockquote {
   font-style: italic;
+}
+
+body {
+  background-color: #f3f3f3;
 }

@@ -1,21 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Playfair+Display&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url('http://fonts.cdnfonts.com/css/ia-writer-duospace');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
 
 html[data-theme="light"] {
-  --ls-font-family: "Playfair Display", serif;
-  --ls-title-font-family: "Playfair Display SC", serif;
-  --ls-secondary-font-family: "Lato", sans-serif;
+  --ls-font-family: 'iA Writer Duospace', sans-serif;
+  --ls-title-font-family: 'Cormorant Garamond', serif;
   --ls-link-text-color: rgb(45, 40, 40);
   --ls-primary-text-color: rgb(45, 40, 40);
   --ls-link-ref-text-color: rgb(45, 40, 40);
 }
 
+body {
+  font-size: 14px;
+}
+
 .keyboard-shortcut > code,
 .text-sm {
-  font-family: var(--ls-secondary-font-family);
+  font-family: var(--ls-font-family);
 }
 
 .page-ref {
-  text-decoration: underline;
   color: var(--ls-primary-text-color);
 }
 
@@ -26,12 +30,18 @@ h4,
 h5,
 h6 {
   font-family: var(--ls-title-font-family);
+  font-weight: 400px;
+}
+
+h1.title {
+  font-size: 3rem;
 }
 
 .ls-block h2 {
   border-bottom: 1px solid var(--ls-primary-text-color) !important;
   font-family: var(--ls-title-font-family);
   text-align: right;
+  font-size: 2rem;
   .page-ref {
     text-decoration: none;
   }
